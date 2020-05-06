@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Intuit Accouts - Sign Up</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="icons/apple-touch-icon-57x57.png" />
+    </head>
+    <body>
+        <nav>
+            <div id="headerElements">
+                <div id="text">
+                    <p>Already have an Intuit account? <br>
+                    <a href="#">I forgot my User ID for Password</a></p>
+                </div>
+                <button type="button"><img class="lock" src="icons/lock.png" />Sign In</button>
+            </div>
+        </nav>
+        <header>
+            <div id="intuitLogoDiv">
+                <img id="intuitLogo" src="icons/intuitLogo.png"/>
+            </div>
+            <ul id="threePairsLogos">
+                <li id="logoPair">
+                    <img class="headerLogos" src="icons/mintIcon.svg" />
+                    <img class="mint" src="icons/mint.svg" />
+                </li>
+                <li id="logoPair">
+                    <img class="headerLogos" src="icons/quickbooksLogo.svg" />
+                    <img class="quickbooks"  src="icons/quickbooks.svg" />
+                </li>
+                <li id="logoPair">
+                    <img class="headerLogos" id="turbotaxLogo" src="icons/turbotaxLogo.svg" />
+                    <img class="turbotax" src="icons/turbotax.svg" />
+                </li>
+            </ul>
+        </header>
+        <main>
+            <form>
+                <ul>
+                    <li>
+                        <h1>Create an Intuit account</h1>
+                    </li>
+                    <li>
+                        <h2>One account for everything Intuit, including Min.</h2>
+                    </li>
+                    <li>
+                        <a id="learnMore" href="#">Learn more</a>
+                    </li>
+                    <li>
+                        <label for="email">Email address</label>
+                            <input required name="email" type="email" />
+                    </li>
+                    <li>
+                        <label for="tel">Phone (recommended)</label>
+                            <input required name="tel" type="tel" />
+                            <small>Standard call, messaging or data may apply.</small>
+                    </li>
+                    <li>
+                        <label for="password">Password</label>
+                            <input id="password" required name="password" type="password">
+                            <img src="icons/openLock.png" id="openLock"></img>
+                    </li>
+                    <li>
+                        <button type="submit" class="submitBtn"><img class="lock" src="icons/lock.png" />Create Account</button>
+                    </li>
+                    <li>
+                        <p class="underSubmit">By clicking Create account, you agree to our <br> 
+                            <a href="#">Terms</a> and have read and acknowledged our <a href="#">Privacy <br>
+                            Statement</a>
+                        </p>
+                    </li>
+                </ul>
+            </form><!--
+        --><div class="reCAPTCHA">
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, 
+                ProConnect and Mint are registered trademarks of Intuit Inc. <br>
+                Terms and conditions, features, support, pricing, and service 
+                options subject to change without notice.</p>
+        </footer>
+    </body>
+</html>
